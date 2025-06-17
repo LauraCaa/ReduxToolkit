@@ -1,4 +1,5 @@
 import Counter from "./features/counter/Counter";
+import Post from "./features/posts/Post";
 import AddTodo from "./features/todo/AddTodo";
 import TodoList from "./features/todo/TodoList";
 
@@ -10,6 +11,7 @@ function App() {
       <div className="todoWrapper">
         <AddTodo/>
         <TodoList/>
+        <Post></Post>
       </div>
     </div>
   );
